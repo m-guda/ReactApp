@@ -31,6 +31,7 @@ class Row extends React.Component{
                   <button onClick={this.onViewClick}>view</button>
             </Column>)
         }
+
         return (<tr>{renderedCols}{actionButton}</tr>)
     }
 }
